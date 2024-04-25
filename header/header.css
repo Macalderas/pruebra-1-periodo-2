@@ -1,0 +1,22 @@
+.section_banner{
+    max-width: 50rem;
+    height: 50rem;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 7rem 12rem;
+    gap: 10px;
+}
+
+.section_banner div{
+    border: solid black;
+    border-radius: 5px;
+
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+
+}
